@@ -7,6 +7,7 @@
 			max-height: 100%; 
 			font-family:Sans-serif;
 			line-height: 1.5em;
+			overflow: auto;
 		}
 
 		main {
@@ -20,7 +21,7 @@
 		}
 				
 		#header {
-			position: absolute;
+			position: left;
 			top: 0;
 			left: 0;
 			width: 100%;
@@ -55,6 +56,52 @@
 		
 		p {
 			color: #555;
+		}
+
+		#menu{
+			float: left;
+			width: 80%;
+			height: 100%;
+			margin: none;
+		}
+			 
+		#menu ul{
+			text-align: left;
+			float: left;
+			margin: none;
+			background: white;
+		}
+			 
+		#menu li{
+			display: inline-block;
+			padding: none;
+			margin: none;
+		}
+			 
+		#menu li a, #menu li span{
+			display: inline-block;
+			padding: 0em 1.5px;
+			text-decoration: none;
+			font-weight: 300;
+			text-transform: none;
+			line-height: 60px;
+		}
+			 
+		#menu li a{
+			
+			color: rgb(0, 0, 0);
+		}
+			 
+		#menu li:hover a, #menu li span{
+			background: rgb(12, 1, 1);
+			color: rgb(255, 255, 255);
+			border-left: 1px solid #000000;
+			text-decoration: none;
+		}
+		
+		#contact {
+			text-align: right;
+			line-height: 60px;
 		}
 
 		nav ul {
