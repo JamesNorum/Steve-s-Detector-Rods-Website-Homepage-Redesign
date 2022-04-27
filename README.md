@@ -25,6 +25,6 @@ v1 Figma Design:
 
 https://www.figma.com/proto/JSV2mvwA5b6NceHe06Fwsr/Steve%27s-Detector-Rods?page-id=0%3A1&node-id=1%3A3&viewport=245%2C48%2C0.52&scaling=min-zoom&starting-point-node-id=1%3A3
 
-v1 Figma Design:
+v2 Figma Design:
 
 https://www.figma.com/file/JSV2mvwA5b6NceHe06Fwsr/Steve's-Detector-Rods?node-id=51%3A2
