@@ -27,4 +27,4 @@ https://www.figma.com/proto/JSV2mvwA5b6NceHe06Fwsr/Steve%27s-Detector-Rods?page-
 
 v2 Figma Design:
 
-https://www.figma.com/file/JSV2mvwA5b6NceHe06Fwsr/Steve's-Detector-Rods?node-id=51%3A2
+https://www.figma.com/file/JSV2mvwA5b6NceHe06Fwsr/Steve%27s-Detector-Rods?node-id=51%3A2
