@@ -31,10 +31,17 @@
 			background: white;
 		}
 
+		#header-logo {
+			position: absolute;
+			width: 5.5%;
+			margin-left: 75px;
+		}
+
 		#title {
 			text-align: center;
 			color: #991B1B;
 			text-decoration: none;
+			display: inline;
 		}
 
 		#center-header {
@@ -147,7 +154,7 @@
 		#contact {
 			position: absolute;
 			right: 0;
-			top: 0;
+			top: 60;
 			line-height: 60px;
 			padding: 0%;
 		}
