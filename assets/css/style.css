@@ -2,7 +2,7 @@
 		body {
 			margin: 0;
 			padding: 0;
-			//overflow: hidden;
+			overflow: hidden;
 			height: 100%; 
 			max-height: 100%;
 			font-family: sans-serif;
@@ -17,11 +17,16 @@
 			left: 230px; 
 			right: 0;
 			overflow: auto; 
+			padding-left: 10%;
+			padding-right: 10%;
 		}
 
-				
+		img.rounded-corners {
+			border-radius: 7px;
+		}
+
 		#header {
-			//position: left;
+			position: left;
 			top: 0;
 			left: 0;
 			width: 100%;
@@ -29,25 +34,35 @@
 			overflow: hidden; /* Disables scrollbars on the header frame. To enable scrollbars, change "hidden" to "scroll" */
 		}
 
-		#header-logo {
-			position: absolute;
-			width: 5.5%;
-			margin-left: 75px;
+		
+		.header-logo {
+			vertical-align: top;
+			text-align: center;
 		}
 
-		#title {
-			text-align: center;
+		#logo a {
 			color: #991B1B;
 			text-decoration: none;
-			display: inline;
 		}
 
+		#logo img {
+			float: center;
+			width: 6%;
+		}
+		
+		#logo {
+			display: inline-block;
+			color: #991B1B;
+			text-decoration: none;
+			text-align: center;
+		}
+		
 		#center-header {
 			text-align: center;
 		}
 
 		#footer {
-			position: absolute;
+			position: relative;
 			left: 0;
 			bottom: 0;
 			width: 100%;
@@ -57,15 +72,16 @@
 		}
 
 		#footer-logo {
-			float:left;
+			float: left;
 			width: 17px;
 			margin-right: 10px;
 		}
 
 		#footer-title {
 			color:#991B1B;
-			//font: italic;
+			font: italic;
 		}
+
 		#button {
 			background-color: #8d8d8d;
 			display: flex;
@@ -105,13 +121,13 @@
 			float: left;
 			width: 80%;
 			height: 100%;
-			//margin: none;
+			margin: none;
 		}
 			 
 		#menu ul{
 			text-align: left;
 			float: left;
-			//margin: none;
+			margin: none;
 			background: white;
 			list-style-type: none;
 			margin: 0;
@@ -120,8 +136,8 @@
 			 
 		#menu li{
 			display: inline-block;
-			//padding: none;
-			//margin: none;
+			padding: none;
+			margin: none;
 		}
 			 
 		#menu li a, #menu li span{
@@ -160,6 +176,17 @@
 			text-decoration: none;
 		}
 		
+		#welcome img{
+			width: 20rem;
+			float: right;
+		}
+
+		#welcome p{
+			padding: 1rem 1rem 1rem 1rem;
+			font-size: 32px;
+			block-size: 13rem;
+		}
+
 		/*IE6 fix*/
 		* html body{
 			padding: 50px 0 50px 230px; /* Set the first value to the height of the header, the third value to the height of the footer, and last value to the width of the nav */
@@ -168,4 +195,5 @@
 		* html main{ 
 			height: 100%; 
 			width: 100%; 
+			padding-left: 50%;
 		}
