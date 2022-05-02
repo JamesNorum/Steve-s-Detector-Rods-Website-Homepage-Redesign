@@ -13,11 +13,17 @@ main {
   position: center;
   top: 50px; /* Set this to the height of the header */
   bottom: 50px; /* Set this to the height of the footer */
-  left: 230px;
   right: 0;
   overflow: auto;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+@media screen and (max-width: 1100px){
+  main{
+      padding-left: 10%;
+      padding-right: 10%;
+  }
 }
 
 img.rounded-corners {
@@ -25,6 +31,9 @@ img.rounded-corners {
 }
 
 #header {
+  display: inline-block;
+  padding: 10px;
+  font-size: 1.5em;
   position: left;
   top: 0;
   left: 0;
@@ -69,15 +78,25 @@ img.rounded-corners {
   background: #f3f4f6;
 }
 
-#footer-logo {
-  float: left;
-  width: 17px;
-  margin-right: 10px;
+.footer-logo {
+  text-align: left;
 }
 
-#footer-title {
+#footer-logo a {
   color: #991b1b;
-  font: italic;
+  text-decoration: none;
+}
+
+#footer-logo img {
+  float: left;
+  width: 6%;
+}
+
+#footer-logo {
+  display: inline-block;
+  color: #991b1b;
+  text-decoration: none;
+  text-align: left;
 }
 
 #button {
@@ -163,9 +182,6 @@ img.rounded-corners {
 #contact {
   position: absolute;
   right: 0;
-
-  top: 60px;
-
   line-height: 60px;
   padding: 0;
 }
@@ -186,13 +202,49 @@ img.rounded-corners {
   block-size: 13rem;
 }
 
-/*IE6 fix*/
-* html body {
-  padding: 50px 0 50px 230px; /* Set the first value to the height of the header, the third value to the height of the footer, and last value to the width of the nav */
+#about {
+  height: 480px;
 }
 
-* html main {
-  height: 100%;
-  width: 100%;
-  padding-left: 50%;
+#about h2 {
+  text-align: center;
+}
+#about img {
+  width: 20rem;
+  float: left;
+}
+
+#about p {
+  text-align: left;
+  padding-left: 21rem;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation button {
+  width: 10rem;
+}
+.navigation h4 {
+  margin-block-end: 1em;
+  width: 180px;
+}
+.navigation > div {
+  text-align: center;
+  align-items: baseline;
+  margin: 1rem 4rem 1rem 4rem;
+  padding: 0.5rem;
+  font-size: 20px;
+}
+
+.product {
+  display: flex;
+  justify-content:space-between;
+}
+
+.product button {
+  float: right;
 }
