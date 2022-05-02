@@ -80,6 +80,7 @@ img.rounded-corners {
 
 .footer-logo {
   text-align: left;
+  padding-left: 100px;
 }
 
 #footer-logo a {
@@ -248,3 +249,21 @@ img.rounded-corners {
 .product button {
   float: right;
 }
+#products h2 {
+  text-align: center;
+}
+.button-center {
+  text-align: center;
+}
+#test {
+  text-align: center;
+}
+.testimonial {
+  display: flex;
+}
+.testimonials {
+  flex: 1;
+  background: lightgrey;
+  margin-right: 30px;
+}
+
