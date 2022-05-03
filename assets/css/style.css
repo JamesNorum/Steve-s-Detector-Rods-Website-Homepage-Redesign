@@ -245,9 +245,18 @@ img.rounded-corners {
   display: flex;
   justify-content: space-between;
 }
+.product-metadata {
+  display: flex;
+  flex-direction: column;
+}
 .product p {
   font-size: 14px;
-  margin-top: 23px;
+  margin-top: 0;
+  color: #44403c;
+  font-size: 1rem;
+}
+.product h3 {
+  margin-bottom: 0.25rem;
 }
 .product button {
   float: right;
