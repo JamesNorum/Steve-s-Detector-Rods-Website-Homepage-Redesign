@@ -81,6 +81,7 @@ img.rounded-corners {
 .footer-logo {
   text-align: left;
   padding-left: 100px;
+  background: lightgrey;
 }
 
 #footer-logo a {
@@ -188,7 +189,7 @@ img.rounded-corners {
 }
 
 #contact a {
-  color: #991b1b;
+  color: #841617;
   text-decoration: none;
 }
 
@@ -228,6 +229,13 @@ img.rounded-corners {
 
 .navigation button {
   width: 10rem;
+  background: #841617;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 8px 24px;
+  font-size: 14px;
 }
 .navigation h4 {
   margin-block-end: 1em;
@@ -245,17 +253,42 @@ img.rounded-corners {
   display: flex;
   justify-content:space-between;
 }
-
+.product p {
+ font-size: 14px;
+  margin-top: 23px;
+}
 .product button {
   float: right;
+  background: #841617;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  height: 30px;
+  padding: 5px 24px;
+  margin-top: 18px;
 }
 #products h2 {
   text-align: center;
 }
 .button-center {
   text-align: center;
+  margin-bottom: 20px;
+}
+.button-center button {
+  width: 10rem;
+  background: #841617;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 5px 24px;
+  font-size: 16px;
 }
 #test {
+  padding-top: 10px;
+  margin-bottom: 0px;
   text-align: center;
 }
 .testimonial {
