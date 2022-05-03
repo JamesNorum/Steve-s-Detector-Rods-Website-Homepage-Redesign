@@ -1,11 +1,8 @@
 body {
-  margin: 0;
-  padding: 0;
   overflow: hidden;
   height: 100%;
   max-height: 100%;
   font-family: sans-serif;
-  line-height: 1.5em;
   overflow: auto;
 }
 
@@ -19,10 +16,10 @@ main {
   padding-right: 20%;
 }
 
-@media screen and (max-width: 1100px){
-  main{
-      padding-left: 10%;
-      padding-right: 10%;
+@media screen and (max-width: 1100px) {
+  main {
+    padding-left: 10%;
+    padding-right: 10%;
   }
 }
 
@@ -31,15 +28,14 @@ img.rounded-corners {
 }
 
 #header {
-  display: inline-block;
-  padding: 10px;
-  font-size: 1.5em;
-  position: left;
-  top: 0;
-  left: 0;
-  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-block: 10px;
+  font-size: "1.25rem";
   height: 50px;
   overflow: hidden; /* Disables scrollbars on the header frame. To enable scrollbars, change "hidden" to "scroll" */
+  margin-inline: 6rem;
 }
 
 .header-logo {
@@ -138,7 +134,6 @@ img.rounded-corners {
 
 #menu {
   float: left;
-  width: 80%;
   height: 100%;
   margin: none;
 }
@@ -175,17 +170,13 @@ img.rounded-corners {
 
 #menu li:hover a,
 #menu li span {
-  background: rgb(12, 1, 1);
-  color: rgb(255, 255, 255);
-  border-left: 1px solid #000000;
+  background: rgb(226, 224, 224);
+  border-left: 1px solid #fff;
   text-decoration: none;
 }
 
 #contact {
-  position: absolute;
-  right: 0;
   line-height: 60px;
-  padding: 0;
 }
 
 #contact a {
@@ -202,6 +193,7 @@ img.rounded-corners {
   padding: 1rem 1rem 1rem 1rem;
   font-size: 32px;
   block-size: 13rem;
+  line-height: "4rem";
 }
 
 #about {
@@ -251,10 +243,10 @@ img.rounded-corners {
 
 .product {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 .product p {
- font-size: 14px;
+  font-size: 14px;
   margin-top: 23px;
 }
 .product button {
@@ -293,10 +285,53 @@ img.rounded-corners {
 }
 .testimonial {
   display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 .testimonials {
-  flex: 1;
-  background: lightgrey;
-  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  background: #f9fafb;
+  margin-inline: 0.5rem;
+  border: 1px solid #e5e7eb;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.testimonials-header {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: "row";
+  align-items: center;
 }
 
+.testimonials-header-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.testimonials-header-name,
+.testimonials-header-location {
+  margin: 0;
+}
+
+.testimonials-header-location {
+  color: #7b7280;
+  font-size: 0.9rem;
+}
+
+.circle {
+  display: flex;
+  border-radius: 100%;
+  background-color: blue;
+  width: 2.5rem;
+  height: 2.5rem;
+  justify-content: center;
+}
+.circle p {
+  color: #fff;
+  text-align: center;
+  vertical-align: center;
+  margin-top: 0.625rem;
+}
