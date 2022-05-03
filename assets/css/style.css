@@ -4,6 +4,7 @@ body {
   max-height: 100%;
   font-family: sans-serif;
   overflow: auto;
+  margin: 0;
 }
 
 main {
@@ -75,6 +76,7 @@ img.rounded-corners {
 }
 
 .footer-logo {
+  position: "abolute";
   text-align: left;
   padding-left: 100px;
   background: lightgrey;
