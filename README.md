@@ -28,3 +28,7 @@ https://www.figma.com/proto/JSV2mvwA5b6NceHe06Fwsr/Steve%27s-Detector-Rods?page-
 Version 2 Figma Design:
 
 https://www.figma.com/file/JSV2mvwA5b6NceHe06Fwsr/Steve%27s-Detector-Rods?node-id=51%3A2
+
+Version 2 Implementation:
+
+https://storage.googleapis.com/production-sdr/Steve-s-Detector-Rods-Website-Homepage-Redesign/index.html
